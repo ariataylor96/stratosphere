@@ -3,13 +3,13 @@ requires = [ "poetry>=0.12",]
 build-backend = "poetry.masonry.api"
 
 [tool.poetry]
-name = "stratosphere"
+name = "pystratosphere"
 version = "0.1.0"
 description = "Show your speedrunning notes in time with your splits"
 authors = [ "Mark Rawls <markrawls96@gmail.com>",]
 
 [tool.poetry.scripts]
-strat = 'stratosphere.cli:main'
+strat = 'pystratosphere.cli:main'
 
 [tool.black]
 line-length = 95
