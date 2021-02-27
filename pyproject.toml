@@ -5,7 +5,7 @@ build-backend = "poetry.masonry.api"
 [tool.poetry]
 name = "stratosphere"
 version = "0.1.0"
-description = ""
+description = "Show your speedrunning notes in time with your splits"
 authors = [ "Mark Rawls <markrawls96@gmail.com>",]
 
 [tool.poetry.scripts]
